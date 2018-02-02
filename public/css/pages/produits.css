@@ -1,0 +1,19 @@
+.carte_produit{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    -webkit-transition: box-shadow 2s;
+    transition: box-shadow 0.3s;
+}
+.carte_produit:hover{
+    box-shadow: 2px -2px rgba(23, 23, 137, 0.65);
+    cursor: pointer;
+}
+.pic_produit{
+    width: 100px;
+    height: 50px;
+    border: 1 dotted red;
+}
