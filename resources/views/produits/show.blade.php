@@ -4,9 +4,10 @@
 <section>
             <div class="container">
                 <div class="section-heading scrollpoint sp-effect3">
-                    <h1>SmartTop</h1>
+                    <h1>{{ $produit->nom }}</h1>
                     <div class="divider"></div>
-                    <p>Ordinateur portable MADE IN AFRICA, avec connexion intégrée !</p>
+					<p>{{ $produit->description }}</p>
+					
                 </div>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 scrollpoint sp-effect2">

@@ -22,16 +22,20 @@
 
             <!-- DEBUT row produits -->
             <div class="row">
-                <div class="carte_produit">
-                    <div class="pic_produit">
+                @foreach( $produits as $produit)
+                    <div class="carte_produit">
+                        <div class="pic_produit">
 
+                        </div>
+                        <div class="desc_produit">
+                            <h3>{{ $produit->nom }}</h3>
+                            {{ $produit->description }}
+                        </div>
+                        <a href=""></a><button>En savoir plus ...</button></a>
                     </div>
-                    <div class="desc_produit">
-                        Ordinateur portable MADE IN AFRICA, avec connexion intégrée !
-                    </div>
-                    <button>En savoir plus ...</button>
-                </div>
+                @endforeach
             </div>
+            <!-- FIN row produits -->
         </div>
         <!-- FIN conteneur --> 
     </section>
